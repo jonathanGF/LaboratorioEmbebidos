@@ -4,7 +4,7 @@ import os
 
 # --- Configuración ---
 # Asegúrate de cambiar "pi" por tu nombre de usuario si es diferente
-username = "pi"
+username = "teamvip"
 video_path = f"/home/{username}/videos/video.mp4"
 pictures_path = f"/home/{username}/pictures/"
 
@@ -34,3 +34,4 @@ else:
             player.play()
             time.sleep(3)
             player.stop()
+

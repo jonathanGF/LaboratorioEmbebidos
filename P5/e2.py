@@ -6,7 +6,7 @@ import threading
 import pyudev
 
 # --- Configuración ---
-username = "pi"  # <--- Cambia esto por tu nombre de usuario
+username = "teamvip"  # <--- Cambia esto por tu nombre de usuario
 pictures_path = f"/home/{username}/pictures/"
 
 # --- Variables compartidas entre hilos ---
@@ -90,5 +90,6 @@ if usb_detected_event.is_set():
         play_images_from_path(player, usb_mount_point[0])
     else:
         print("No se pudo obtener el punto de montaje del USB.")
+
 
 print("Finalizando script.")

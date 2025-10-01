@@ -2,7 +2,7 @@ import vlc
 import time
 
 # --- Configuración ---
-username = "pi" # <--- Cambia esto por tu nombre de usuario
+username = "teamvip" # <--- Cambia esto por tu nombre de usuario
 video_path = f"/home/{username}/videos/video.mp4"
 
 # --- Script Principal ---
@@ -32,4 +32,5 @@ for volume in range(100, -1, -1):
     time.sleep(0.05) # 5 segundos / 100 pasos
 
 player.stop()
+
 print("Reproducción finalizada.")
